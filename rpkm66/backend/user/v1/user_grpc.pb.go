@@ -19,15 +19,15 @@ import (
 const _ = grpc.SupportPackageIsVersion7
 
 const (
-	UserService_FindOne_FullMethodName         = "/user.UserService/FindOne"
-	UserService_FindByStudentID_FullMethodName = "/user.UserService/FindByStudentID"
-	UserService_Create_FullMethodName          = "/user.UserService/Create"
-	UserService_Update_FullMethodName          = "/user.UserService/Update"
-	UserService_Verify_FullMethodName          = "/user.UserService/Verify"
-	UserService_Delete_FullMethodName          = "/user.UserService/Delete"
-	UserService_CreateOrUpdate_FullMethodName  = "/user.UserService/CreateOrUpdate"
-	UserService_ConfirmEstamp_FullMethodName   = "/user.UserService/ConfirmEstamp"
-	UserService_GetUserEstamp_FullMethodName   = "/user.UserService/GetUserEstamp"
+	UserService_FindOne_FullMethodName         = "/rpkm66.backend.user.v1.UserService/FindOne"
+	UserService_FindByStudentID_FullMethodName = "/rpkm66.backend.user.v1.UserService/FindByStudentID"
+	UserService_Create_FullMethodName          = "/rpkm66.backend.user.v1.UserService/Create"
+	UserService_Update_FullMethodName          = "/rpkm66.backend.user.v1.UserService/Update"
+	UserService_Verify_FullMethodName          = "/rpkm66.backend.user.v1.UserService/Verify"
+	UserService_Delete_FullMethodName          = "/rpkm66.backend.user.v1.UserService/Delete"
+	UserService_CreateOrUpdate_FullMethodName  = "/rpkm66.backend.user.v1.UserService/CreateOrUpdate"
+	UserService_ConfirmEstamp_FullMethodName   = "/rpkm66.backend.user.v1.UserService/ConfirmEstamp"
+	UserService_GetUserEstamp_FullMethodName   = "/rpkm66.backend.user.v1.UserService/GetUserEstamp"
 )
 
 // UserServiceClient is the client API for UserService service.
@@ -360,7 +360,7 @@ func _UserService_GetUserEstamp_Handler(srv interface{}, ctx context.Context, de
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var UserService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "user.UserService",
+	ServiceName: "rpkm66.backend.user.v1.UserService",
 	HandlerType: (*UserServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
